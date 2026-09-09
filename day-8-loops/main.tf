@@ -4,7 +4,7 @@ resource "aws_instance" "ec2" {
         server-2 = "t3.small"
         server-3 = "c7i-flex.large"
     })
-    ami = "ami-01a00762f46d584a1"
+    ami = "ami-02167eae61967e403"
     instance_type = each.value
     key_name = "abhi"
     tags = {
